@@ -33,10 +33,6 @@ Please note that these scripts are for educational purposes only and should not 
 
 Here is a sample README file for the password crackers for LinkedIn, Yahoo, and FormSpring data breaches:
 
-# Password Crackers for LinkedIn, Yahoo, and FormSpring Data Breaches
-
-This repository contains Python scripts to crack passwords for LinkedIn, Yahoo, and FormSpring data breaches. The techniques used to obtain the passwords are described below:
-
 ## Other techniques I considered:
 
 ## Yahoo
