@@ -5,11 +5,11 @@ Here is a sample README file for the password crackers for LinkedIn, Yahoo, and 
 
 This repository contains Python scripts to crack passwords for LinkedIn, Yahoo, and FormSpring data breaches. The techniques used to obtain the passwords are described below:
 
-## Yahoo
+### Yahoo
 
 The user ID and password were split using the splitter (“:”) to help crack the password.
 
-## LinkedIn
+### LinkedIn
 
 The following process helped crack the password:
 
@@ -35,15 +35,15 @@ Here is a sample README file for the password crackers for LinkedIn, Yahoo, and 
 
 ## Other techniques I considered:
 
-## Yahoo
+### Yahoo
 
 The simplest technique was to extract the user ID and password from the file.
 
-## LinkedIn
+### LinkedIn
 
 Other hashing techniques such as SHA256 and SHA3_256 were tried, but the password was cracked using the Secure Hashing Algorithm (SHA1) technique. The difficulty in cracking passwords was identifying the first five characters of the encrypted string which were replaced with zeros.
 
-## Formspring
+### Formspring
 
 Other hashing techniques such as SHA1 and SHA3_256 were tried. The Brute-Force method, which looks for all possible characters of the given length, was also tried. However, the time complexity of this method is very high. So, the Salt hashing approach was used. The passwords were encrypted using the salt and hashing technique. Using two-digit salt and SHA256 hashing technique, many passwords were cracked.
 
