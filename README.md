@@ -49,7 +49,7 @@ Other hashing techniques such as SHA256 and SHA3_256 were tried, but the passwor
 
 Other hashing techniques such as SHA1 and SHA3_256 were tried. The Brute-Force method, which looks for all possible characters of the given length, was also tried. However, the time complexity of this method is very high. So, the Salt hashing approach was used. The passwords were encrypted using the salt and hashing technique. Using two-digit salt and SHA256 hashing technique, many passwords were cracked.
 
-How were the passwords stored? Compare the difficulty in cracking passwords protected with each type of storage.
+## How were the passwords stored? Comparison of the difficulty in cracking passwords protected with each type of storage.
 
 For Yahoo, the passwords were stored in a simple text file. The passwords were not encrypted, they were in their original text form. It was easy to crack all those passwords.
 
