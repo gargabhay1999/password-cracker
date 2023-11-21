@@ -14,6 +14,7 @@ b. Fetched the probable password word list from the internet.
 c. Prefixed each word with the salt from the salt list.
 d. Encrypted each word into its SHA256 hashing form and created the dictionary where the key = SHA256 encrypted string and the value = actual word.
 e. For each line in the input password file, check if the line (key) is present in the above dictionary. If yes, then print the actual word (value).
+
 Other techniques you considered:
 1. For Yahoo, the simplest technique was to extract the user ID and password from the file.
 2. For LinkedIn, I tried other hashing techniques such as SHA256 and SHA3_256. I was able to crack the password using the Secure Hashing Algorithm (SHA1) technique.
