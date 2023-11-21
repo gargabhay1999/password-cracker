@@ -15,7 +15,7 @@ c. Prefixed each word with the salt from the salt list.
 d. Encrypted each word into its SHA256 hashing form and created the dictionary where the key = SHA256 encrypted string and the value = actual word.
 e. For each line in the input password file, check if the line (key) is present in the above dictionary. If yes, then print the actual word (value).
 
-Other techniques you considered:
+Other techniques I considered:
 1. For Yahoo, the simplest technique was to extract the user ID and password from the file.
 2. For LinkedIn, I tried other hashing techniques such as SHA256 and SHA3_256. I was able to crack the password using the Secure Hashing Algorithm (SHA1) technique.
 3. For FormSpring, I tried other hashing techniques such as SHA1 and SHA3_256. I was able to crack the password using the 256-bit hashing technique SHA256. I tried the Brute-Force method, which looks for all possible characters of the given length. However, the time complexity of this method is very high. So, I went with the Salt hashing approach.
