@@ -19,7 +19,7 @@ The following process helped crack the password:
 4. In step 2, while encrypting the probable words, I replaced the first five characters with zeros.
 5. For each line in the input password file, check if the line (key) is present in the above dictionary. If yes, then print the actual word (value).
 
-## Formspring
+### Formspring
 
 The following technique was followed:
 
