@@ -33,6 +33,7 @@ Please note that these scripts are for educational purposes only and should not 
 
 Here is a sample README file for the password crackers for LinkedIn, Yahoo, and FormSpring data breaches:
 
+
 ## Other techniques I considered:
 
 ### Yahoo
@@ -46,6 +47,7 @@ Other hashing techniques such as SHA256 and SHA3_256 were tried, but the passwor
 ### Formspring
 
 Other hashing techniques such as SHA1 and SHA3_256 were tried. The Brute-Force method, which looks for all possible characters of the given length, was also tried. However, the time complexity of this method is very high. So, the Salt hashing approach was used. The passwords were encrypted using the salt and hashing technique. Using two-digit salt and SHA256 hashing technique, many passwords were cracked.
+
 
 ## How were the passwords stored? Comparison of the difficulty in cracking passwords protected with each type of storage.
 
